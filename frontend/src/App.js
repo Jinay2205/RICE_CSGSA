@@ -15,8 +15,9 @@ import AdminPage from "@/pages/AdminPage";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://127.0.0.1:8000";
-export const API = `${BACKEND_URL}/api`;
+// const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://127.0.0.1:8000";
+// export const API = `${BACKEND_URL}/api`;
+export const API = "/api";
 
 // Auth Context
 export const AuthContext = createContext(null);
