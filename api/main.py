@@ -39,7 +39,12 @@ api_router = APIRouter(prefix="/api")
 security = HTTPBearer()
 
 # JWT Configuration
-JWT_SECRET = os.environ.get('JWT_SECRET', 'rice-cs-gsa-secret-key-2024')
+# Secure JWT Configuration
+JWT_SECRET = os.environ.get('JWT_SECRET')
+
+if not JWT_SECRET:
+    # In production (Vercel), this will raise an error if you forgot to set it
+    raise ValueError("JWT_SECRET environment variable is not set")
 JWT_ALGORITHM = "HS256"
 
 # ===================== MODELS =====================
