@@ -1,0 +1,113 @@
+{
+  "typography": {
+    "font_family": {
+      "headings": "Source Serif 4, Georgia, serif",
+      "body": "Inter, sans-serif",
+      "code": "JetBrains Mono, monospace"
+    },
+    "weights": {
+      "headings": "font-bold (700) or font-black (900)",
+      "body": "font-normal (400) or font-medium (500)",
+      "accent": "font-semibold (600)"
+    },
+    "sizes": {
+      "h1": "text-5xl md:text-7xl tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl tracking-tight",
+      "h3": "text-2xl md:text-3xl tracking-normal",
+      "body": "text-base md:text-lg leading-relaxed",
+      "small": "text-sm tracking-wide uppercase"
+    }
+  },
+  "colors": {
+    "light_theme": {
+      "background": "#FFFFFF",
+      "foreground": "#00205B",
+      "primary": "#00205B",
+      "secondary": "#7C7E7F",
+      "accent": "#3B82F6",
+      "muted": "#F1F5F9",
+      "border": "#E2E8F0"
+    },
+    "dark_theme": {
+      "background": "#0A0A0A",
+      "foreground": "#E2E8F0",
+      "primary": "#3B82F6",
+      "secondary": "#94A3B8",
+      "accent": "#60A5FA",
+      "muted": "#1E293B",
+      "border": "#334155"
+    },
+    "gradients": {
+      "hero_text": "bg-gradient-to-r from-[#00205B] to-[#3B82F6] bg-clip-text text-transparent",
+      "hero_overlay": "bg-gradient-to-b from-transparent via-white/50 to-white",
+      "dark_overlay": "bg-gradient-to-b from-transparent via-black/50 to-black"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": {
+      "nav": "bg-white/70 dark:bg-black/60 backdrop-blur-xl border-b border-white/20 dark:border-white/10",
+      "card": "bg-white/50 dark:bg-black/40 backdrop-blur-md border border-white/20 shadow-sm hover:shadow-md transition-all duration-300"
+    },
+    "shadows": {
+      "card": "shadow-[0_4px_20px_-2px_rgba(0,0,0,0.1)]",
+      "hover": "shadow-[0_8px_30px_-4px_rgba(0,0,0,0.15)]"
+    },
+    "borders": {
+      "default": "border border-border",
+      "subtle": "border-b border-border/50"
+    }
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": {
+      "section": "py-20 md:py-32",
+      "element": "gap-6 md:gap-12"
+    },
+    "grids": {
+      "bento": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "tetris": "grid grid-cols-1 md:grid-cols-12 gap-8",
+      "list": "flex flex-col gap-4"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full px-8 py-3 bg-primary text-white hover:bg-primary/90 transition-transform active:scale-95 shadow-lg",
+      "secondary": "rounded-full px-8 py-3 bg-muted text-foreground hover:bg-muted/80 transition-transform active:scale-95",
+      "ghost": "rounded-full px-6 py-2 hover:bg-accent/10 text-accent transition-colors"
+    },
+    "cards": {
+      "event": "group relative overflow-hidden rounded-2xl border border-border bg-card p-6 hover:border-accent/50 transition-colors",
+      "profile": "flex flex-col items-center text-center p-6 rounded-xl bg-muted/30 hover:bg-muted/50 transition-colors"
+    },
+    "inputs": {
+      "default": "rounded-lg border-border bg-background px-4 py-2 focus:ring-2 focus:ring-accent/20 focus:border-accent transition-all"
+    }
+  },
+  "image_urls": {
+    "hero_background": "https://images.unsplash.com/photo-1764437358274-0cf9ceda78cf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBuZXR3b3JrJTIwYmx1ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY5NzU4MzY4fDA&ixlib=rb-4.1.0&q=85",
+    "campus_modern": "https://images.pexels.com/photos/14669038/pexels-photo-14669038.jpeg",
+    "students_collaborating": "https://images.unsplash.com/photo-1637855195094-992d3d578f42?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxjb21wdXRlciUyMHNjaWVuY2UlMjBzdHVkZW50cyUyMGNvbGxhYm9yYXRpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzY5NzU4MzY3fDA&ixlib=rb-4.1.0&q=85",
+    "students_meeting": "https://images.unsplash.com/photo-1610070835951-156b6921281d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwZ3JvdXAlMjBvZiUyMHN0dWRlbnRzJTIwbWVldGluZ3xlbnwwfHx8fDE3Njk3NTgzNzB8MA&ixlib=rb-4.1.0&q=85",
+    "tech_abstract": "https://images.unsplash.com/photo-1768330187404-59e46cf222c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3klMjBuZXR3b3JrJTIwYmx1ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY5NzU4MzY4fDA&ixlib=rb-4.1.0&q=85",
+    "placeholder_profile": "https://images.unsplash.com/photo-1565841327798-694bc2074762?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw0fHxjb21wdXRlciUyMHNjaWVuY2UlMjBzdHVkZW50cyUyMGNvbGxhYm9yYXRpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzY5NzU4MzY3fDA&ixlib=rb-4.1.0&q=85"
+  },
+  "universal_guidelines": [
+    "Fusion over Imitation: Mix academic prestige with tech innovation.",
+    "Emotion First: Every interaction should feel 'smart' and 'welcoming'.",
+    "Content is King: Prioritize event clarity and leadership accessibility.",
+    "Negative Space: Use generous padding (p-8, p-12) to avoid clutter.",
+    "Contrast: Ensure text is readable against Rice Blue backgrounds.",
+    "No Generic Gradients: Use texture or subtle noise instead of flat gradients.",
+    "Mobile First: Ensure all grids stack beautifully on mobile."
+  ],
+  "instructions_to_main_agent": [
+    "1. Install dependencies: `npm install @phosphor-icons/react react-icons framer-motion clsx tailwind-merge`.",
+    "2. Update `tailwind.config.js` with the Rice Blue (#00205B) and Gray (#7C7E7F) palette.",
+    "3. Create a `Layout` component that includes the Glassmorphism Navbar and Footer.",
+    "4. Build the `Hero` section using the 'tech_abstract' image as a subtle background with a heavy blur or overlay.",
+    "5. Implement the `Events` section using a Bento Grid layout (large feature card + smaller list).",
+    "6. Use Shadcn `Calendar` for the Events page, customized to match the theme.",
+    "7. Ensure the Admin Dashboard is clean, high-density, and functional (Mode B grid).",
+    "8. Add a Dark Mode toggle in the Navbar."
+  ]
+}
